@@ -24,7 +24,7 @@ To run this code, you need to install :
 1. [MOSEK](https://www.mosek.com/downloads/) : version 7 
 2. [CVX](http://cvxr.com/cvx/download/) : version 2.1 
 
-Once installed, setup the paths in startup file :
+Once installed, setup the paths in the startup file :
 ```Matlab
 main.m
 ```
@@ -45,7 +45,7 @@ Now you can run our optimization code that will take X as input and output the l
    main.m
 ```
 
-This code is optimized for running everything on a computer with enough memory. If you are looking for a way to solve the Discriminative Clustering in a totally online manner (ie with very limited memory usage) please contact us. We only provided this version as the fully online version is much slower to run because of the slow disk speed access.
+This code is optimized for running everything on a computer with enough memory. If you are looking for a way to solve the Discriminative Clustering model in a totally online manner (ie with very limited memory usage) please contact me. We only provided this version as the fully online version is much slower to run because of the slow disk speed access.
 
 ### Cite
 
